@@ -20,9 +20,7 @@ a{text-decoration: none; color: #333;}
 
 #e7e7e7; padding: 0 0 20px 0;}
 .mission, .previous{background-color: inherit;}
-.upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-
-
-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%; cursor:pointer;}
+.upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%; cursor:pointer;}
 .mission h4, .upcoming h4, .previous h4{font-family:'Black Ops One'; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
 .mission h4 {background: url('images/mission.gif') no-repeat 100% 60%;}
 .upcoming h4{background: url('images/event.png') no-repeat 100% 60%;}
