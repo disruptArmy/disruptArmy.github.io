@@ -6,7 +6,7 @@ html, body{padding: 0 0;margin: 0 0;height: 100%;width: 100%;font-family: Arial,
 
 #classification h2, #dash-top h2{margin: 0; text-align:center;}
 #classification h2 {color: #fff; font-size: 14px; padding: 3px 0; }
-#dash-top h2{font-family:Stencil;font-size: 40px;}
+#dash-top h2{font-family:Stencil, 'Stardos Stencil';font-size: 40px;}
 
 #definition{ width: 100%; padding: 10px 0 0 0;}
 #definition h3{color: #333; text-align:left; font-size: 30px; width: 80%; margin: 0 auto; padding: 0; font-weight:normal;}
@@ -15,11 +15,11 @@ a{text-decoration: none; color: #333;}
 
 #contentArea{width: 80%; text-align: center; margin:0 auto; padding: 20px 0 0 0;}
 #contentArea a:hover{cursor: default;}
-.mission, .upcoming, .previous{width: 325px; height: 325px; border: 1px solid #e7e7e7; display:inline-block; margin: 0 10px 10px 0; box-shadow: 0 10px 15px #e7e7e7;}
+.mission, .upcoming, .previous{width: 325px; height: 325px; border: 1px solid #e7e7e7; display:inline-block; margin: 0 10px 0 0; box-shadow: 0 10px 15px #e7e7e7; padding: 0 0 20px 0;}
 .mission, .previous{background-color: inherit;}
-.upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%;}
-.mission h4, .upcoming h4, .previous h4{font-family:Stencil; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
-.mission h4 {background: url('images/mission.png') no-repeat 100% 60%;}
+.upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%; cursor:pointer;}
+.mission h4, .upcoming h4, .previous h4{font-family:Stencil, 'Stardos Stencil'; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
+.mission h4 {background: url('images/mission.gif') no-repeat 100% 60%;}
 .upcoming h4{background: url('images/event.png') no-repeat 100% 60%;}
 .previous h4{background: url('images/past.png') no-repeat 100% 60%;}
 .mission p, .upcoming p, .previous p{float: left; text-align: left; padding: 10px 30px 30px 20px; margin: 0; font-size: 20px;}
@@ -30,13 +30,28 @@ a{text-decoration: none; color: #333;}
 .join{background: RGB(0,112,192) url('images/pointer.png') no-repeat 98% 50%; }
 .cta{background: RGB(0,112,192) url('images/call.png') no-repeat 98% 50%; }
 .join:hover, .cta:hover{border-bottom: 3px solid RGB(0,112,192);opacity:0.95;}
+#mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%;display:none; margin: -30px auto -10px auto; padding: 20px 0 !important; border: 1px solid #e7e7e7;}
+#mc_embed_signup form {text-align:center; padding:10px 0 10px 0; width: 100%;}
+.mc-field-group, #mc_embed_signup .clear { display: inline-block; }
+#mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; border-bottom: 2px solid #333;  color: #343434; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
+#mc_embed_signup input.email:focus{border-bottom: 2px solid RGB(0,112,192);}
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup .button {font-size: 13px; border: none;border-top: 2px solid RGB(0,112,192); border-bottom: 2px solid #333; color: #fff; background-color: RGB(0,112,192); padding: 6px 14px; display: inline-block; margin: 0;}
+#mc_embed_signup .button:hover {cursor:pointer; border-bottom: 2px solid RGB(0,112,192);}
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
 .social img {padding: 0 20px 0 0; opacity: 0.6;}
 .social img:hover{opacity: 1;}
 
-#mission-detail, #upcoming-detail, #previous-detail{width: 100%; padding: 0; height: 600px; display:none;}
-#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 20px 0; font-size: 30px; background-color:#F9F9F9; font-family:Stencil;}
-.mission-area, .upcoming-area, .previous-area{width: 81%; height: 500px; background-color: #fff; margin: 0 auto; border: 1px solid #e7e7e7; }
-#lastChance{display:none;}
+#mission-detail, #previous-detail{width: 100%; padding: 0; height: 600px; display:none;}
+#upcoming-detail{width: 100%; padding: 0; height: 600px;}
+#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 20px 0; font-size: 30px; background-color:#F9F9F9; font-family:Stencil, 'Stardos Stencil';}
+.mission-area, .upcoming-area, .previous-area{width: 81%; height: 500px; margin: 0 auto; text-align: center; }
+.overview, .timeline, .prizes, .judges, .sponsors{float: left; padding: 20px; margin: 10px; background-color: #fff; border: 1px solid #e7e7e7; width:240px; height:325px;}
 
 /* media queries from small to large */ 
 @media screen and (max-width: 500px) {
@@ -50,6 +65,14 @@ a{text-decoration: none; color: #333;}
     .mission, .upcoming, .previous{width: 100%; margin: 0;}
     .join, .cta{padding: 8px 25px 8px 10px; font-size: 20px;}   
     .mission-area, .upcoming-area, .previous-area{width: 95%;}
+    
+    #mc-embedded-subscribe-form{margin: 0 auto;}
+    #mc_embed_signup .button {margin: 10px 0 0 0;}
+    #classification h2{font-size: 9px;}
+    
+    .mission p, .upcoming p, .previous p{font-size: 18px !important;}
+    .mission h4, .upcoming h4, .previous h4, #mission-detail h2, #upcoming-detail h2, #previous-detail h2{font-size: 20px !important;}
+    .overview, .timeline, .prizes, .judges, .sponsors{width: 80%;}
 }
 
 @media screen and (max-width: 1050px) {
@@ -60,6 +83,5 @@ a{text-decoration: none; color: #333;}
 
 @media screen and (min-height: 750px) {
   #definition{padding: 30px 0 0 0;}  
-  #contentArea{padding: 60px 0 0 0;}
-  #footer{padding: 80px 0 0 0;}
+  #contentArea{padding: 60px 0 40px 0;}
 }
