@@ -1,4 +1,4 @@
-html, body{padding: 0 0;margin: 0 0;height: 100%;width: 100%;font-family: Arial, Tahoma, Geneva, sans-serif;background-color: #F9F9F9;color: #333;}
+html, body{padding: 0 0;margin: 0 0;height: 100%;width: 100%;font-family: Arial, Tahoma, Geneva, sans-serif;background-color: #F9F9F9;color: #333; cursor: default;}
 
 a img{border:none;}
 #classification{background-color: Green; width: 100%;}
@@ -7,7 +7,7 @@ a img{border:none;}
 
 #classification h2, #dash-top h2{margin: 0; text-align:center;}
 #classification h2 {color: #fff; font-size: 14px; padding: 3px 0; }
-#dash-top h2{font-family:'Black Ops One';font-size: 40px;}
+#dash-top h2{font-family:'Black Ops One', Stencil;font-size: 40px;}
 
 #definition{ width: 100%; padding: 10px 0 0 0;}
 #definition h3{color: #333; text-align:left; font-size: 30px; width: 80%; margin: 0 auto; padding: 0; font-weight:normal;}
@@ -16,12 +16,10 @@ a{text-decoration: none; color: #333;}
 
 #contentArea{width: 80%; text-align: center; margin:0 auto; padding: 20px 0 0 0;}
 #contentArea a:hover{cursor: default;}
-.mission, .upcoming, .previous{width: 325px; height: 325px; border: 1px solid #e7e7e7; display:inline-block; margin: 0 10px 0 0; box-shadow: 0 10px 15px 
-
-#e7e7e7; padding: 0 0 20px 0;}
+.mission, .upcoming, .previous{width: 325px; height: 325px; border: 1px solid #e7e7e7; display:inline-block; margin: 0 10px 0 0; box-shadow: 0 10px 15px #e7e7e7; padding: 0 0 20px 0;}
 .mission, .previous{background-color: inherit;}
 .upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%; cursor:pointer;}
-.mission h4, .upcoming h4, .previous h4{font-family:'Black Ops One'; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
+.mission h4, .upcoming h4, .previous h4{font-family:'Black Ops One', Stencil; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
 .mission h4 {background: url('images/mission.gif') no-repeat 100% 60%;}
 .upcoming h4{background: url('images/event.png') no-repeat 100% 60%;}
 .previous h4{background: url('images/past.png') no-repeat 100% 60%;}
@@ -33,19 +31,13 @@ a{text-decoration: none; color: #333;}
 .join{background: RGB(0,112,192) url('images/pointer.png') no-repeat 98% 50%; }
 .cta{background: RGB(0,112,192) url('images/call.png') no-repeat 98% 50%; }
 .join:hover, .cta:hover{border-bottom: 3px solid RGB(0,112,192);opacity:0.95;}
-#mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%;display:none; margin: -30px auto -10px auto; padding: 
-
-20px 0 !important; border: 1px solid #e7e7e7;}
+#mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%;display:none; margin: -30px auto -10px auto; padding: 20px 0 !important; border: 1px solid #e7e7e7;}
 #mc_embed_signup form {text-align:center; padding:10px 0 10px 0; width: 100%;}
 .mc-field-group, #mc_embed_signup .clear { display: inline-block; }
-#mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; border-bottom: 2px solid #333;  color: #343434; height:32px; 
-
-padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
+#mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; border-bottom: 2px solid #333;  color: #343434; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
 #mc_embed_signup input.email:focus{border-bottom: 2px solid RGB(0,112,192);}
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-#mc_embed_signup .button {font-size: 13px; border: none;border-top: 2px solid RGB(0,112,192); border-bottom: 2px solid #333; color: #fff; background-color: 
-
-RGB(0,112,192); padding: 6px 14px; display: inline-block; margin: 0;}
+#mc_embed_signup .button {font-size: 13px; border: none;border-top: 2px solid RGB(0,112,192); border-bottom: 2px solid #333; color: #fff; background-color: RGB(0,112,192); padding: 6px 14px; display: inline-block; margin: 0;}
 #mc_embed_signup .button:hover {cursor:pointer; border-bottom: 2px solid RGB(0,112,192);}
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
 #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
@@ -58,26 +50,39 @@ RGB(0,112,192); padding: 6px 14px; display: inline-block; margin: 0;}
 
 #mission-detail, #previous-detail{width: 100%; padding: 0; height: 500px; display:none;}
 #upcoming-detail{width: 100%; padding: 0; height: 500px; background: #F9F9F9; background-size: 50%;}
-#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 0 0 0 0; font-size: 30px; background: 
-
-#F9F9F9; font-family:'Black Ops One';}
-.mission-area, .upcoming-area, .previous-area{width: 90%; height: 500px; margin: 0 auto; text-align: left;}
+#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 0 0 0 0; font-size: 30px; background: #F9F9F9; font-family:'Black Ops One', Stencil;}
+.mission-area, .upcoming-area, .previous-area{width: 76.5%; height: 500px; margin: 0 auto; text-align: left;}
 
 .mission-area h3, .upcoming-area h3, .previous-area h3{text-align:left; padding: 0 0 10px 0; margin: 0;}
 .mission-area p, .upcoming-area p, .previous-area p{text-align:left; padding: 0; margin: 0;}
-.overview, .timeline, .prizes, .judges, .sponsors{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:240px; height:325px; box-
-
-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
-.overview h3{background: transparent url('images/overview.png') no-repeat center right;;}
-.timeline h3{background: #fff url('images/time.png') no-repeat center right;;}
+.overview, .timeline, .prizes, .judges, .sponsors, .rules{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
+.overview h3{background: transparent url('images/overview.png') no-repeat center right;}
+.subject{font-style: italic; font-size: 16px !important;}
+.timeline h3{background: #fff url('images/time.png') no-repeat center right;}
 .prizes h3{background: #fff url('images/prize.png') no-repeat center right;}
+.prizes p{font-size: 30px; }
+.prizes img{vertical-align:middle;}
+.place{font-size: 16px; display:block; padding: 0 0 0 20px; margin: 0 0 0 5px; background: url('images/cash.png') no-repeat center left;}
+
 .sponsors h3{background: #fff url('images/sponsor.png') no-repeat center right;}
+.tier1{background-image: url('images/dell.gif'), url('images/htdc.png'); background-repeat:no-repeat; background-position:left center, right center; height: 80px;}
+.tier2{background-image: url('images/uh.png'), url('images/army.png'), url('images/gr3en.png'); background-repeat:no-repeat; background-position:center left, center right, center center; height: 100px;}
+.tier3{background-image: url('images/uh.png'), url('images/gr3en.png'); background-repeat:no-repeat; background-position:center left, center right; height: 50px;}
+.rules h3{background: #fff url('images/rules.png') no-repeat center right;}
 .time{text-indent: 20px; font-style: italic;}
+.theme{background: url('images/theme.png') no-repeat center center; height: 90px;}
+
+.overview p{text-indent: 30px;} 
+.dateTime{background: url('images/dateTime.png') no-repeat left center;}
+.eats{background: url('images/eats.png') no-repeat left center;}
+.location{background: url('images/location.png') no-repeat left center;}
 
 #lastChance{clear: both;}
 
 /* media queries from small to large */ 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) 
+{
+    html, body{overflow-x: hidden;}
     #dash-top h2{font-size: 20px;}
     #dash-top img{height:40px !important; vertical-align: text-bottom !important;}
     
@@ -95,16 +100,43 @@ shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
     
     .mission p, .upcoming p, .previous p{font-size: 18px !important;}
     .mission h4, .upcoming h4, .previous h4, #mission-detail h2, #upcoming-detail h2, #previous-detail h2{font-size: 20px !important;}
-    .overview, .timeline, .prizes, .judges, .sponsors{width: 78%;}
+
+    .overview, .timeline, .prizes, .judges, .sponsors{width: 230px !important; margin: 0 0 10px 0 !important;}
+    .prizes img{height: 30px !important;}
+    .prizes p{font-size: 20px !important; }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1280px) {
+  .mission-area, .upcoming-area, .previous-area{width: 85%;}
+}
+
+@media screen and (max-width: 1024px) {
     #definition h3{font-size: 25px; }
-    #definition img{height:25px;}
+    #definition img{height:25px;}   
+    .mission-area, .upcoming-area, .previous-area{width: 75%;}
 }
 
+@media screen and (max-width: 950px) {
+    .overview, .timeline, .prizes, .judges, .sponsors{width: 280px;}
+    .mission-area, .upcoming-area, .previous-area{width: 40%;}
+    .prizes img{height: 40px;}
+    .prizes p{font-size: 25px; }
+}
 
-@media screen and (min-height: 750px) {
+@media screen and (max-width: 800px) {
   #definition{padding: 30px 0 0 0;}  
   #contentArea{padding: 60px 0 40px 0;}
+}
+
+@media screen and (max-width: 768px) {
+  .mission-area, .upcoming-area, .previous-area{width: 45%;}
+}
+
+@media screen and (max-width: 360px) {
+  .mission-area, .upcoming-area, .previous-area{margin: 0 10px 0 20px;}
+  .overview, .timeline, .prizes, .judges, .sponsors{width: 270px !important;}
+}
+
+@media screen and (max-width: 320px) {
+  .mission-area, .upcoming-area, .previous-area{margin: 0;}
 }
