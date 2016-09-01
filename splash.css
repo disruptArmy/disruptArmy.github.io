@@ -31,7 +31,7 @@ a{text-decoration: none; color: #333;}
 .join{background: RGB(0,112,192) url('images/pointer.png') no-repeat 98% 50%; }
 .cta{background: RGB(0,112,192) url('images/call.png') no-repeat 98% 50%; }
 .join:hover, .cta:hover{border-bottom: 3px solid RGB(0,112,192);opacity:0.95;}
-#mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%;display:none; margin: -30px auto -10px auto; padding: 20px 0 !important; border: 1px solid #e7e7e7;}
+#mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%; margin: 0 auto; padding: 20px 0 !important; border: 1px solid #e7e7e7;}
 #mc_embed_signup form {text-align:center; padding:10px 0 10px 0; width: 100%;}
 .mc-field-group, #mc_embed_signup .clear { display: inline-block; }
 #mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; border-bottom: 2px solid #333;  color: #343434; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
