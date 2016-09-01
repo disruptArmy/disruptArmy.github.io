@@ -21,11 +21,6 @@ $(document).ready(function(){
   });
   //show signup form
   $(".join").click(function(){
-      $("#mc-embedded-subscribe-form").fadeIn(900);
-      $(".join").hide();
-  });
-  $(".cta").click(function () {
-      $("#mc-embedded-subscribe-form").fadeIn(900);
-      $(".join").hide();
+      $("#mc-embedded-subscribe-form").fadeIn(1200);
   });
 });
