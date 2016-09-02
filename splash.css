@@ -109,10 +109,10 @@ box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
     .prizes img{height: 30px !important;}
     .prizes p{font-size: 20px !important; }
 }
-@media screen and (width: 1281px) {
+@media screen and (max-width: 1281px) {
   .mission-area, .upcoming-area, .previous-area{width: 91%;}
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1250px) {
   .mission-area, .upcoming-area, .previous-area{width: 86%;}
 }
 
