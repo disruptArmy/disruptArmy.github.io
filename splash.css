@@ -1,4 +1,4 @@
-html, body{padding: 0 0;margin: 0 0;height: 100%;width: 100%;font-family: Arial, Tahoma, Geneva, sans-serif;background-color: #F9F9F9;color: #333; cursor: default; overflow-x:hidden;}
+html, body{padding: 0 0;margin: 0 0;width: 100%;font-family: Arial, Tahoma, Geneva, sans-serif;background-color: #F9F9F9;color: #333; cursor: default; overflow-x:hidden;}
 
 a img{border:none;}
 #classification{background-color: Green; width: 100%;}
