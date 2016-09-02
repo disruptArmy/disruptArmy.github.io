@@ -57,9 +57,7 @@ padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-alig
 
 .mission-area h3, .upcoming-area h3, .previous-area h3{text-align:left; padding: 0 0 10px 0; margin: 0;}
 .mission-area p, .upcoming-area p, .previous-area p{text-align:left; padding: 0; margin: 0;}
-.overview, .timeline, .prizes, .judges, .sponsors, .rules{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; 
-
-box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
+.overview, .timeline, .prizes, .judges, .sponsors, .rules{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
 .overview h3{background: transparent url('images/overview.png') no-repeat center right;}
 .subject{font-style: italic; font-size: 16px !important;}
 .timeline h3{background: #fff url('images/time.png') no-repeat center right;}
@@ -108,6 +106,7 @@ box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
     .overview, .timeline, .prizes, .judges, .sponsors{width: 230px !important; margin: 0 0 10px 0 !important;}
     .prizes img{height: 30px !important;}
     .prizes p{font-size: 20px !important; }
+    .subject{font-size: 16px !important;}
 }
 @media screen and (max-width: 1281px) {
   .mission-area, .upcoming-area, .previous-area{width: 91%;}
