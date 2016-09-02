@@ -139,7 +139,7 @@ box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
   .mission-area, .upcoming-area, .previous-area{width: 45%;}
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 380px) {
   .mission-area, .upcoming-area, .previous-area{margin: 0 10px 0 20px;}
   .overview, .timeline, .prizes, .judges, .sponsors{width: 270px !important;}
 }
