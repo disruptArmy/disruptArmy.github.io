@@ -86,7 +86,7 @@ box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
 /* media queries from small to large */ 
 @media screen and (max-width: 500px) 
 {
-    html, body{overflow-x: hidden;}
+    html, body{overflow-x: hidden; -webkit-overflow-scrolling: touch;}
     #dash-top h2{font-size: 20px;}
     #dash-top img{height:40px !important; vertical-align: text-bottom !important;}
     
