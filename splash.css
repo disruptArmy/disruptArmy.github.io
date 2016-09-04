@@ -59,7 +59,7 @@ padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-alig
 .mission-area p, .upcoming-area p, .previous-area p{text-align:left; padding: 0; margin: 0;}
 .overview, .timeline, .prizes, .judges, .sponsors, .rules{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
 .overview h3{background: transparent url('images/overview.png') no-repeat center right;}
-.subject{font-style: italic; font-size: 16px !important;}
+.subject{font-style: italic; font-size: 16px !important; text-align: left;}
 .timeline h3{background: #fff url('images/time.png') no-repeat center right;}
 .prizes h3{background: #fff url('images/prize.png') no-repeat center right;}
 .prizes p{font-size: 30px; }
@@ -82,8 +82,7 @@ padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-alig
 #lastChance{clear: both;}
 
 /* media queries from small to large */ 
-@media screen and (max-width: 500px) 
-{
+@media screen and (max-width: 500px){
     html, body{overflow-x: hidden; -webkit-overflow-scrolling: touch;}
     #dash-top h2{font-size: 20px;}
     #dash-top img{height:40px !important; vertical-align: text-bottom !important;}
@@ -105,6 +104,7 @@ padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-alig
 
     .overview, .timeline, .prizes, .judges, .sponsors{width: 230px !important; margin: 0 0 10px 0 !important;}
     .prizes img{height: 30px !important;}
+    input[type=submit] {-webkit-appearance: none; -webkit-border-radius: 0; background-color: RGB(0,112,192) !important;}
 }
 @media screen and (max-width: 1281px) {
   .mission-area, .upcoming-area, .previous-area{width: 91%;}
