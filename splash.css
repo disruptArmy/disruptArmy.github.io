@@ -62,7 +62,10 @@ a{text-decoration: none; color: #333;}
 .prizes h3{background: #fff url('images/prize.png') no-repeat center right;}
 .prizes p{font-size: 30px; }
 .prizes img{vertical-align:middle;}
-.place{font-size: 16px; display:block; padding: 0 0 0 20px; margin: 0 0 0 5px; background: url('images/cash.png') no-repeat center left;}
+.place{font-size: 16px; display:block; padding: 0 0 0 20px; margin: 0 0 0 5px; }
+.laptop{background: url('images/laptop.png') no-repeat center left;}
+.tablet{background: url('images/tablet.png') no-repeat center left;}
+.chromebook{background: url('images/chromebook.png') no-repeat center left;}
 
 .sponsors h3{background: #fff url('images/sponsor.png') no-repeat center right;}
 .tier1{background-image: url('images/dell.gif'), url('images/htdc.jpg'); background-repeat:no-repeat; background-position:left center, right center; height: 80px;}
