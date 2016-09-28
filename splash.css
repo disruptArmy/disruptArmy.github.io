@@ -69,7 +69,7 @@ a{text-decoration: none; color: #333;}
 
 .sponsors h3{background: #fff url('images/sponsor.png') no-repeat center right;}
 .tier1{background-image: url('images/dell.gif'), url('images/htdc.jpg'); background-repeat:no-repeat; background-position:left center, right center; height: 80px;}
-.tier2{background-image: url('images/uh.png'), url('images/gr3en.png'), url('images/ms.png'); background-repeat:no-repeat; background-position:center left, center center, center right; height: 100px;}
+.tier2{background-image: url('images/uh.png'), url('images/gr3en.png'), url('images/ms.png'); background-repeat:no-repeat; background-position:center left, center right, center 45%; height: 100px;}
 .tier3{background-image: url('images/uh.png'), url('images/gr3en.png'); background-repeat:no-repeat; background-position:center left, center right; height: 50px;}
 .rules h3{background: #fff url('images/rules.png') no-repeat center right;}
 .time{text-indent: 20px; font-style: italic;}
