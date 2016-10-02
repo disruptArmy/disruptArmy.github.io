@@ -1,2 +1,1 @@
-# disruptArmy.github.io
-splash page
+# disruptArmy splash page
