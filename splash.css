@@ -18,7 +18,11 @@ a{text-decoration: none; color: #333;}
 #contentArea a:hover{cursor: default;}
 .mission, .upcoming, .previous{width: 325px; height: 325px; border: 1px solid #e7e7e7; display:inline-block; margin: 0 10px 0 0; box-shadow: 0 10px 15px #e7e7e7; padding: 0 0 20px 0;}
 .mission, .previous{background-color: inherit;}
-.upcoming{background-color: #fff; background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%; cursor:pointer;}
+.upcoming, .previous{cursor:pointer;}
+.upcoming{background-color: #fff;}
+.previous{background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-
+
+position: 25% 95%, 38% 95%, 52% 95%, 65% 95%;}
 .mission h4, .upcoming h4, .previous h4{font-family:'Black Ops One', Stencil; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
 .mission h4 {background: url('images/mission.gif') no-repeat 100% 60%;}
 .upcoming h4{background: url('images/event.png') no-repeat 100% 60%;}
@@ -34,7 +38,9 @@ a{text-decoration: none; color: #333;}
 #mc-embedded-subscribe-form{background:#fff; font:14px Arial, Tahoma, Geneva, sans-serif; width:50%; margin: 0 auto; padding: 20px 0 !important; border: 1px solid #e7e7e7;}
 #mc_embed_signup form {text-align:center; padding:10px 0 10px 0; width: 100%;}
 .mc-field-group, #mc_embed_signup .clear { display: inline-block; }
-#mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; outline: none; border-bottom: 2px solid #333;  color: #343434; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
+#mc_embed_signup input.email {font:14px Arial, Tahoma, Geneva, sans-serif; border: none; outline: none; border-bottom: 2px solid #333;  color: #343434; 
+
+height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; vertical-align:top;}
 #mc_embed_signup input.email:focus{border-bottom: 2px solid RGB(0,112,192); outline: none;}
 #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
 #mc_embed_signup .button {font-size: 13px; border: none;border-top: 2px solid RGB(0,112,192); border-bottom: 2px solid #333; color: #fff; background-color: RGB(0,112,192); padding: 6px 14px; display: inline-block; margin: 0;}
@@ -48,9 +54,10 @@ a{text-decoration: none; color: #333;}
 .social img {padding: 0 20px 0 0; opacity: 0.6;}
 .social img:hover{opacity: 1;}
 
-#mission-detail, #previous-detail{width: 100%; padding: 0; height: 500px; display:none;}
-#upcoming-detail{width: 95%; margin: 0 auto;padding: 0; height: 500px; background: #F9F9F9; background-size: 50%; text-align: center;}
-#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 0 0 0 0; font-size: 30px; background: #F9F9F9; font-family:'Black Ops One', Stencil;}
+#mission-detail{width: 100%; padding: 0; height: 500px; display:none;}
+#upcoming-detail, #previous-detail{width: 95%; margin: 0 auto;padding: 0; height: 500px; background: #F9F9F9; background-size: 50%; text-align: center;}
+#previous-detail{clear:both;}
+#mission-detail h2, #upcoming-detail h2, #previous-detail h2{text-align: center; margin: 0 auto 0 auto; padding: 10px 0 0 0; font-size: 30px; background: #F9F9F9; font-family:'Black Ops One', Stencil;}
 .mission-area, .upcoming-area, .previous-area{width: 85%; height: 500px; text-align: center; margin: 0 auto;}
 
 .mission-area h3, .upcoming-area h3, .previous-area h3{text-align:left; padding: 0 0 10px 0; margin: 0;}
@@ -79,6 +86,13 @@ a{text-decoration: none; color: #333;}
 .dateTime{background: url('images/dateTime.png') no-repeat left center;}
 .eats{background: url('images/eats.png') no-repeat left center;}
 .location{background: url('images/location.png') no-repeat left center;}
+
+.prev-overview, .prev-prizes, .prev-sponsors{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
+.prev-overview h3{background: transparent url('images/overview.png') no-repeat center right;}
+.prev-overview p{text-indent: 30px;}
+.prev-prizes h3{background: #fff url('images/prize.png') no-repeat center right;}
+.prev-prizes p{font-size: 30px; }
+.prev-prizes img{vertical-align:middle;}
 
 #lastChance{clear: both;}
 
