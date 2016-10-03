@@ -20,9 +20,7 @@ a{text-decoration: none; color: #333;}
 .mission, .previous{background-color: inherit;}
 .upcoming, .previous{cursor:pointer;}
 .upcoming{background-color: #fff;}
-.previous{background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-
-
-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%;}
+.previous{background-image: url('images/1.png'), url('images/4.png'), url('images/3.png'), url('images/2.png'); background-repeat:no-repeat; background-position: 25% 95%, 38% 95%, 52% 95%, 65% 95%;}
 .mission h4, .upcoming h4, .previous h4{font-family:'Black Ops One', Stencil; float: left; padding: 20px 30px 10px 20px; margin: 0; font-size: 28px;}
 .mission h4 {background: url('images/mission.gif') no-repeat 100% 60%;}
 .upcoming h4{background: url('images/event.png') no-repeat 100% 60%;}
@@ -86,13 +84,6 @@ height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:250px; 
 .dateTime{background: url('images/dateTime.png') no-repeat left center;}
 .eats{background: url('images/eats.png') no-repeat left center;}
 .location{background: url('images/location.png') no-repeat left center;}
-
-.prev-overview, .prev-prizes, .prev-sponsors{float: left; padding: 20px; margin: 10px; border: 1px solid #e7e7e7; width:300px; height:325px; box-shadow: 0 10px 15px #e7e7e7; background-color: #fff;}
-.prev-overview h3{background: transparent url('images/overview.png') no-repeat center right;}
-.prev-overview p{text-indent: 30px;}
-.prev-prizes h3{background: #fff url('images/prize.png') no-repeat center right;}
-.prev-prizes p{font-size: 30px; }
-.prev-prizes img{vertical-align:middle;}
 
 #lastChance{clear: both;}
 
